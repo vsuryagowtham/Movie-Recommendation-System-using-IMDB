@@ -18,9 +18,8 @@ Movie-Recommender-System/
 ├── app.py                   # Streamlit application code for deployment
 ├── README.md                # Project documentation
 └── requirements.txt         # List of dependencies
+```
 
-
-# Movie Recommender System (TMDb Dataset)
 
 ## How It Works
 The recommender system is based on content similarity between movies. The steps are as follows:
@@ -49,4 +48,24 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/movie-recommender-system-tmdb-dataset.git
 cd movie-recommender-system-tmdb-dataset
+```
+
+### Install Dependencies
+Install the required libraries from `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Streamlit Application
+To launch the web app using Streamlit, run the following command:
+```bash
+streamlit run app.py
+```
+### Key Libraries Used
+Pandas: For data manipulation and cleaning.
+Scikit-learn: For feature vectorization (TF-IDF) and similarity calculation.
+Streamlit: For building the interactive web app.
+Numpy: For numerical operations.
+
+
 
