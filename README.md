@@ -19,3 +19,34 @@ Movie-Recommender-System/
 ├── README.md                # Project documentation
 └── requirements.txt         # List of dependencies
 
+
+# Movie Recommender System (TMDb Dataset)
+
+## How It Works
+The recommender system is based on content similarity between movies. The steps are as follows:
+
+1. **Data Preprocessing**: The dataset is cleaned and necessary features like genres, keywords, and descriptions are extracted and processed.
+2. **Feature Vectorization**: The TF-IDF (Term Frequency-Inverse Document Frequency) vectorizer converts the textual data into vectors.
+3. **Cosine Similarity Calculation**: Cosine similarity is used to measure how similar two movies are based on their feature vectors.
+4. **Recommendation Engine**: Given a movie title, the system computes similarity scores with other movies and recommends the top N similar movies.
+
+## Dataset
+The dataset used for this project is from [TMDb (The Movie Database)](https://www.themoviedb.org/). It contains information such as:
+- Movie titles
+- Genres
+- Keywords
+- Overview/Description
+- Cast and Crew details
+
+## Installation and Setup
+
+### Prerequisites
+Make sure you have the following installed:
+- Python 3.7+
+- pip (Python package installer)
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/movie-recommender-system-tmdb-dataset.git
+cd movie-recommender-system-tmdb-dataset
+
