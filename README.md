@@ -67,5 +67,6 @@ Scikit-learn: For feature vectorization (TF-IDF) and similarity calculation.
 Streamlit: For building the interactive web app.
 Numpy: For numerical operations.
 
-
+###License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
